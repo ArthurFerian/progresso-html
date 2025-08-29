@@ -1,21 +1,33 @@
-
 .flex-container {
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     gap: 20px;
-} 
-
-.q1 {
-    width: 150px;
-    height: 150px;
-    background-color: aquamarine;
+    flex-direction: column;
 }
 
-.q2 {
-    width: 150px;
-    height: 150px;
-    background-color: hotpink;
+.i1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100px;
+}
+.i2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(251, 255, 0);
+    border-radius: 100px;
+}
+.i3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 34);
+    border-radius: 100px;
+}
+
+
+.flex-column {
+    flex-direction: column;
 }
 
