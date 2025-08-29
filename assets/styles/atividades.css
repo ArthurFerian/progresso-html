@@ -1,33 +1,39 @@
 .flex-container {
-    height: 100vh;
+    height: 300px;
+    width: 140px;
+    background-color: rgb(56, 56, 56);
     display: flex;
+    margin: 300px auto 300px;
     align-items: center;
     justify-content: center;
     gap: 20px;
+    border-radius: 30px;
     flex-direction: column;
 }
 
 .i1 {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     background-color: red;
     border-radius: 100px;
+    box-shadow: 0 4px 10px red;
 }
 .i2 {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     background-color: rgb(251, 255, 0);
     border-radius: 100px;
+    box-shadow: 0 4px 10px rgb(251, 255, 0);
 }
 .i3 {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     background-color: rgb(0, 255, 34);
     border-radius: 100px;
+    box-shadow: 0 4px 10px rgb(0, 255, 34);
 }
 
 
 .flex-column {
     flex-direction: column;
 }
-
