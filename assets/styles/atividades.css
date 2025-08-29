@@ -1,9 +1,21 @@
 
 .flex-container {
-    width: 20%;
-    height: 200px;
-    background-color: rgb(117, 158, 124);
-    margin: 40px auto 20px;
-    justify-content: flex-start;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
 } 
+
+.q1 {
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+}
+
+.q2 {
+    width: 150px;
+    height: 150px;
+    background-color: hotpink;
+}
+
